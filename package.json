@@ -1,0 +1,47 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "private": true,
+  "preview": true,
+  "author": {
+    "name": "骚风",
+    "email": "942391953@qq.com",
+    "url": "https://v2.vuepress.vuejs.org/zh/",
+    "github": "https://github.com/saofeng-cyber/my-blog",
+    "qq": "https://wpa.qq.com/msgrd?v=3&uin=942391953&site=qq&menu=yes"
+  },
+  "keywords": [
+    "blog",
+    "vitepress",
+    "vuepress",
+    "typescript",
+    "vue3"
+  ],
+  "description": "my blog",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "conventional-changelog": "^3.1.25",
+    "conventional-changelog-cli": "^2.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
+    "husky": "^8.0.3",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5",
+    "vitepress": "1.0.0-alpha.75",
+    "vue": "^3.2.47"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "prepare": "husky install",
+    "commit": "cz",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}
