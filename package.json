@@ -37,7 +37,7 @@
     "docs:preview": "vitepress preview",
     "prepare": "husky install",
     "commit": "cz",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "config": {
     "commitizen": {
