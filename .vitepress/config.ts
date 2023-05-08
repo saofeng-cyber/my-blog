@@ -17,7 +17,7 @@ export default defineConfig({
         'Copyright © 2023-present <a href="https://github.com/saofeng-cyber/my-blog">Sao Feng</a>',
     },
     editLink: {
-      pattern: "https://github.com/saofeng-cyber/my-blog/edit/main/docs/:path",
+      pattern: "https://github.com/saofeng-cyber/my-blog/tree/master/:path",
       text: "Edit this page",
     },
     nav: [...navItem],
