@@ -16,13 +16,12 @@ hero:
 
 features:
   - icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path fill="#41b883" d="M24.4 3.925H30l-14 24.15L2 3.925h10.71l3.29 5.6 3.22-5.6Z"/><path fill="#41b883" d="m2 3.925 14 24.15 14-24.15h-5.6L16 18.415 7.53 3.925Z"/><path fill="#35495e" d="M7.53 3.925 16 18.485l8.4-14.56h-5.18L16 9.525l-3.29-5.6Z"/></svg>
-    title: Theme
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none"><path fill="url(#a)" d="m29.884 6.146-13.142 23.5a.714.714 0 0 1-1.244.005L2.096 6.148a.714.714 0 0 1 .746-1.057l13.156 2.352a.714.714 0 0 0 .253 0l12.881-2.348a.714.714 0 0 1 .752 1.05z"/><path fill="url(#b)" d="M22.264 2.007 12.54 3.912a.357.357 0 0 0-.288.33l-.598 10.104a.357.357 0 0 0 .437.369l2.707-.625a.357.357 0 0 1 .43.42l-.804 3.939a.357.357 0 0 0 .454.413l1.672-.508a.357.357 0 0 1 .454.414l-1.279 6.187c-.08.387.435.598.65.267l.143-.222 7.925-15.815a.357.357 0 0 0-.387-.51l-2.787.537a.357.357 0 0 1-.41-.45l1.818-6.306a.357.357 0 0 0-.412-.45z"/><defs><linearGradient id="a" x1="6" x2="235" y1="33" y2="344" gradientTransform="translate(1.34 1.894) scale(.07142)" gradientUnits="userSpaceOnUse"><stop stop-color="#41D1FF"/><stop offset="1" stop-color="#BD34FE"/></linearGradient><linearGradient id="b" x1="194.651" x2="236.076" y1="8.818" y2="292.989" gradientTransform="translate(1.34 1.894) scale(.07142)" gradientUnits="userSpaceOnUse"><stop stop-color="#FFEA83"/><stop offset=".083" stop-color="#FFDD35"/><stop offset="1" stop-color="#FFA800"/></linearGradient></defs></g></svg>
-    title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    title: Vue
+    details: 总结Vue的主要功能，包括底层原理，hook，以及其常用的ui框架及其插件
+  - icon: <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" t="1683534242570" class="icon" viewBox="0 0 1024 1024" version="1.1" p-id="9182" width="32" height="32"><path d="M222.208 309.248H28.672v-92.16h494.592v92.16h-194.56v497.664H222.208V309.248zM655.36 655.36s64.512 62.464 147.456 62.464c45.056 0 86.016-23.552 86.016-71.68 0-105.472-278.528-87.04-278.528-268.288 0-98.304 84.992-171.008 197.632-171.008 116.736 0 176.128 63.488 176.128 63.488l-46.08 87.04s-56.32-51.2-130.048-51.2c-50.176 0-89.088 28.672-89.088 70.656 0 104.448 277.504 78.848 277.504 267.264 0 94.208-71.68 173.056-194.56 173.056-131.072 0-203.776-80.896-203.776-80.896L655.36 655.36z" fill="#0090E0" p-id="9183"/></svg>
+    title: Ts
+    details: Ts类型简介及其常用工具库
   - icon: 🚀
-    title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-footer: MIT Licensed | Copyright © 2018-present Evan You
+    title: 常用的Web构建工具
+    details: Webpack,Vue-Cli,Vite,Roolup等
 ---

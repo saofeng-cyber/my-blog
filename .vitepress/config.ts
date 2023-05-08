@@ -14,7 +14,7 @@ export default defineConfig({
     footer: {
       message: "Released under the MIT License.",
       copyright:
-        'Copyright © 2023-present <a href="https://github.com/saofeng-cyber/my-blog">Sao Feng</a>',
+        'Copyright © 2023-present <a href="https://github.com/saofeng-cyber">Sao Feng</a>',
     },
     editLink: {
       pattern: "https://github.com/saofeng-cyber/my-blog/tree/master/:path",
