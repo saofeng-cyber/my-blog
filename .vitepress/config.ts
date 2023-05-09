@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/my-blog/",
   title: "前端不秃头",
   description: "个人知识库",
-  head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],
+  head: [["link", { rel: "icon", type: "image/svg+xml", href: "/my-blog/logo.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "前端不秃头",
