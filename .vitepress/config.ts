@@ -4,6 +4,7 @@ import { navItem } from "./nav";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/my-blog/",
   title: "前端不秃头",
   description: "个人知识库",
   head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],

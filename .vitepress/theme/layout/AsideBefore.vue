@@ -5,9 +5,9 @@ import { ref } from "vue";
 const data = useData();
 console.log(data.page.value);
 console.log(data);
-const html = ref<string>("")
+const html = ref<string>("AsideBefore")
 
 </script>
 <template>
-    <p>{{ html }}</p>
+    <img src="/logo.svg" alt="" srcset="">
 </template>
