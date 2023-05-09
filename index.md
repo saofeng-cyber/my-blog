@@ -23,5 +23,5 @@ features:
     details: Ts类型简介及其常用工具库
   - icon: 🚀
     title: 常用的Web构建工具
-    details: Webpack,Vue-Cli,Vite,Roolup等
+    details: Webpack,Vue-Cli,Vite,Rollup等
 ---
