@@ -9,7 +9,7 @@ export const sidebarItem: DefaultTheme.Sidebar = {
       ],
     },
   ],
-  "web/": [
+  "/examples/": [
     {
       text: "Examples",
       items: [

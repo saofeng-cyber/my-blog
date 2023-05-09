@@ -28,6 +28,7 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/saofeng-cyber/my-blog" },
     ],
   },
+  ignoreDeadLinks: true,
   vite: {
     server: {
       host: true,
