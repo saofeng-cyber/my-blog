@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /web/html
+      link: /web/js/
     - theme: alt
       text: View on GitHub
       link: https://github.com/saofeng-cyber/my-blog

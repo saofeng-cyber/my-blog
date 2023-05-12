@@ -5,8 +5,9 @@ export const navItem: DefaultTheme.NavItem[] = [
   {
     text: "前端基础篇",
     items: [
-      { text: "Html", link: "/web/html" },
-      { text: "Js", link: "/web/js" },
+      { text: "Js", link: "/web/js/" },
+      { text: "Engine", link: "/web/engine/" },
+      { text: "Vue", link: "/web/vue/" },
     ],
   },
   { text: "Examples", link: "/examples/markdown-examples" },
