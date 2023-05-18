@@ -8,10 +8,17 @@ export default defineConfig({
   title: "前端不秃头",
   description: "个人知识库",
   head: [["link", { rel: "icon", type: "image/svg+xml", href: "/my-blog/logo.svg" }]],
+  markdown: {
+    lineNumbers: true,
+    headers: true,
+    breaks: true,
+    linkify: true,
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "前端不秃头",
     logo: "/logo.svg",
+    lastUpdatedText: "上次更新",
     footer: {
       message: "Released under the MIT License.",
       copyright:
@@ -28,6 +35,9 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/saofeng-cyber/my-blog" },
     ],
+    search: {
+      provider: 'local'
+    }
   },
   ignoreDeadLinks: true,
   vite: {

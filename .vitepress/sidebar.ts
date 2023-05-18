@@ -5,6 +5,7 @@ export const sidebarItem: DefaultTheme.Sidebar = {
       text: "JavaScript内功修炼",
       items: [
         { text: "学习目标", link: "/web/js/" }, // 文件名
+        { text: "基本功", link: "/web/js/base" }, // 文件名
       ],
     },
     {

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>展开显示全部内容，关闭只展示一行内容的页面</title>
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+      }
+      .content {
+        overflow: hidden;
+        transition: height 0.5s ease-in-out;
+      }
+      .content.closed {
+        height: 2em;
+      }
+      .more-btn {
+        margin-left: 1em;
+        padding: 0.5em 1em;
+        font-size: 1em;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <p>
+          这是一段需要展开和关闭的内容。这是一段需要展开和关闭的内容。这是一段需要展开和关闭的内容。这是一段需要展开和关闭的内容。这是一段需要展开和关闭的内容。这是一段需要展开和关闭的内容。
+        </p>
+        <p>
+          这是另一段需要展开和关闭的内容。这是另一段需要展开和关闭的内容。这是另一段需要展开和关闭的内容。这是另一段需要展开和关闭的内容。这是另一段需要展开和关闭的内容。这是另一段需要展开和关闭的内容。
+        </p>
+      </div>
+      <button class="more-btn" onclick="toggleContent()">展开</button>
+    </div>
+    <script>
+      function toggleContent() {
+        const content = document.querySelector(".content");
+        const moreBtn = document.querySelector(".more-btn");
+        if (content.classList.contains("closed")) {
+          content.classList.remove("closed");
+          content.classList.add("open");
+          moreBtn.textContent = "收起";
+        } else {
+          content.classList.remove("open");
+          content.classList.add("closed");
+          moreBtn.textContent = "展开";
+        }
+      }
+
+      function Person(name, age) {
+        this.name = name;
+        this.age = age;
+      }
+      const alice = new Person("Alice", 25);
+      console.log(alice.alice);
+    </script>
+  </body>
+</html>

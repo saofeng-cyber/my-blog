@@ -2,6 +2,7 @@
 
 * ✨ feat(custom): 添加学习目标 ([da34440](https://github.com/saofeng-cyber/my-blog/commit/da34440))
 * ✨ feat(custom): 修改自述文件 ([3808781](https://github.com/saofeng-cyber/my-blog/commit/3808781))
+* 1.0.4 ([9fd0583](https://github.com/saofeng-cyber/my-blog/commit/9fd0583))
 * Create README.md ([5095135](https://github.com/saofeng-cyber/my-blog/commit/5095135))
 
 
